@@ -318,3 +318,51 @@ local Section = Tab:AddSection({
 local Section = Tab:AddSection({
 	Name = "Gabriel"
 })
+
+Tab:AddButton({
+	Name = "Zola Hub [BLOX FRUITS]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/barlossxi/barlossxi/main/ZO.lua"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Experience Hub [BLOX FRUITS]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/Memories0912/Experience-Script/main/Gen2Beta.lua"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Pear Cat Hub [BLOX FRUITS]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost-1198/Main/main/Betamain.lua"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Rise Hub [BLOX FRUITS]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Min Hub [BLOX FRUITS]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("http://moookiegwug.publicvm.com/Test/uploads/712/835d7c2d3018d49e25256f874282d526.txt"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Zen Hun [BLOX FRUITS]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+    end
+})
