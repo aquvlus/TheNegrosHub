@@ -200,6 +200,13 @@ Tab:AddButton({
     end
 })
 
+Tab:AddButton({
+	Name = "Jailbreak",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
+    end
+})
 
 local Tab = Window:MakeTab({
 	Name = "Universal",
@@ -219,6 +226,126 @@ local Tab = Window:MakeTab({
 	Name = "FE Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Kidnapping UFO",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/fjD5Utqc"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Simple Uzi Gun Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/8mmg7Q75"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Suicide Vest Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/83L8Hsym"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Chainsaw Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/dPuwHc7d"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Plane Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/9pKtz6sK"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Ear Rape Launcher Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("http://pastebin.com/raw/sMG3Cfie"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Server Destroyer Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/sn1CEBCE"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "9/11 Plane Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/FzX6j2Tx"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Twerk for me Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/Hu9h2Dn6"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Hitler Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/iAXQHmXy"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Glock Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/4b1rVBsy"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Penis Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/uTcYB9sU"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "C4 Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/UiHAr9jk"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Helicopter Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/UiHAr9jk"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "AK-47 Script",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/WU41MyLB"))();
+    end
 })
 
 local Tab = Window:MakeTab({
@@ -311,8 +438,62 @@ Tab:AddButton({
     end
 })
 
+Tab:AddTextbox({
+    Name = "WalkSpeed",
+    Default = "15",
+    TextDisappear = true,
+    Callback = function(Value)
+        local newWalkSpeed = tonumber(Value)
+        if newWalkSpeed then
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = newWalkSpeed
+        else
+            warn("Not working bitch")
+        end
+    end	  
+})
+
 local Section = Tab:AddSection({
 	Name = "Ethan"
+})
+
+Tab:AddButton({
+	Name = "Script Hub 1 [ALL STAR TOWER DEFENSE]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet('https://raw.githubusercontent.com/Niburu52/hub/refs/heads/main/All%20Star%20Tower%20Defense.txt'))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Script Hub 2 [ALL STAR TOWER DEFENSE]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet('https://raw.githubusercontent.com/ZLRebug/ART_individu/main/LeaderBoard'))()
+    end
+})
+
+Tab:AddButton({
+	Name = "karmapanda Hub [ALL STAR TOWER DEFENSE]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://script.karmapanda.dev"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Macro + Auto Farm Hub [DUNGEUON QUEST]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/Best/main/Dungeon"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Auto Farm Hub 1 [DUNGEUON QUEST]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/HenSeu87PofghYT/ns9/main/DUNGEON%20QUEST"))()
+    end
 })
 
 local Section = Tab:AddSection({
