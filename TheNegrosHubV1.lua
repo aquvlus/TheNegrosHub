@@ -17,6 +17,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Fisch",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+Tab:AddButton({
 	Name = "My Restaurant 2",
 	Callback = function()
       		print("button pressed")
@@ -145,14 +153,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Evade 2",
-	Callback = function()
-      		print("button pressed")
-              loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))
-    end
-})
-
-Tab:AddButton({
 	Name = "Sol's RNG",
 	Callback = function()
       		print("button pressed")
@@ -227,6 +227,38 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+Tab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "CMD-X",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Reviz Admin",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://pastebin.com/raw/A2R7TdJV"))();
+    end
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+
 local Tab = Window:MakeTab({
 	Name = "Weird Shit",
 	Icon = "rbxassetid://4483345998",
@@ -249,4 +281,40 @@ local Tab = Window:MakeTab({
 	Name = "Personalized",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Kacper"
+})
+
+Tab:AddButton({
+	Name = "Zee Hub [FISCH]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://zuwz.xyz/Zee-Hub-Fisch"))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Speed Hub [FISCH]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+Tab:AddButton({
+	Name = "Switch Hub [FISCH]",
+	Callback = function()
+      		print("button pressed")
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/refs/heads/main/Fisch.lua"))()
+    end
+})
+
+local Section = Tab:AddSection({
+	Name = "Ethan"
+})
+
+local Section = Tab:AddSection({
+	Name = "Gabriel"
 })
